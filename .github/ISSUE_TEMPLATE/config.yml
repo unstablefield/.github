@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question
+    url: https://github.com/unstablefield/.github/discussions
+    about: Ask in the discussions. Issues are for bugs, hardware reports, model requests and feature requests.
+  - name: Security problem
+    url: https://github.com/unstablefield/.github/security/advisories/new
+    about: Report it privately. Do not open a public issue.

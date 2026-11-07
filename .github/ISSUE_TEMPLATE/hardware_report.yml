@@ -1,0 +1,35 @@
+name: Hardware report
+description: How UnstableField runs on hardware the minimum-spec table marks estimated.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The minimum-spec table marks ROCm, XPU, Apple, 6 GB and 4 GB cards, CPU-only machines and Windows as estimated or untested. A report of what works and what does not on such a machine is how the table gets corrected. A full calibration report goes in a pull request instead; the wiki page on calibration says how.
+  - type: input
+    id: hardware
+    attributes:
+      label: Hardware
+      description: GPU and VRAM, RAM, the backend, the operating system and the driver version.
+      placeholder: RX 7800 XT 16 GB, 32 GB RAM, rocm, Ubuntu 24.04, ROCm 7.2
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The `version` in `manifest.json`, or the commit you are on.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: What ran
+      description: Which models and tiers you tried, what the setup page offered, and for each job whether it finished, how long it took, and what the result looked like.
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Log
+      description: The relevant lines of `logs/run_and_install.log` from the data directory. It has ids and timings and no prompts.
+      render: text
