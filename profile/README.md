@@ -1,4 +1,6 @@
-# UnstableField
+<img src="UnstableField GitHub Banner.png" width="100%" height="auto" alt="">
+
+# Welcome to UnstableField
 
 Local image, video and chat generation on your own GPU. It runs entirely on
 your machine with its own engine built on torch and diffusers. A planner fits
