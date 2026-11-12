@@ -1,8 +1,11 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Bug, hardware report, model or feature request
+    url: https://github.com/unstablefield/unstablefield/issues/new/choose
+    about: Issues are taken on the engine repository only.
   - name: Question
-    url: https://github.com/unstablefield/.github/discussions
-    about: Ask in the discussions. Issues are for bugs, hardware reports, model requests and feature requests.
+    url: https://github.com/unstablefield/unstablefield/discussions
+    about: Ask in the engine repository's discussions.
   - name: Security problem
-    url: https://github.com/unstablefield/.github/security/advisories/new
+    url: https://github.com/unstablefield/unstablefield/security/advisories/new
     about: Report it privately. Do not open a public issue.

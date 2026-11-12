@@ -1,18 +1,18 @@
 # Support
 
-Read the wiki in the engine repository first. It covers installation, the
-hardware each tier needs, the Create, Chat and Models pages, the API, and
-every measurement behind the minimum-spec table.
+Read the [wiki](https://github.com/unstablefield/unstablefield/tree/main/wiki)
+in the engine repository first. It covers installation, the hardware each tier
+needs, the Create, Chat and Models pages, the API, and every measurement
+behind the minimum-spec table.
 
 Questions go to the
-[discussions](https://github.com/unstablefield/.github/discussions) on this
-repository.
+[discussions](https://github.com/unstablefield/unstablefield/discussions) on
+the engine repository.
 
-Bugs go to the issues on the engine repository. While that repository is
-private, open them [here](https://github.com/unstablefield/.github/issues)
-instead. The bug template asks for the hardware, the backend, the model and
-tier, and the tail of `logs/run_and_install.log` from the data directory
-(`~/.local/share/unstablefield/` unless `UNSTABLEFIELD_DATA_DIR` moved it).
+Bugs go to its [issues](https://github.com/unstablefield/unstablefield/issues/new/choose).
+The bug template asks for the hardware, the backend, the model and tier, and
+the tail of `logs/run_and_install.log` from the data directory
+(`~/.unstablefield/` unless `UNSTABLEFIELD_HOME` moved it).
 That file has ids and timings and no prompts, so it is safe to paste.
 
 Reports of a tier working or failing on hardware that has not been measured
